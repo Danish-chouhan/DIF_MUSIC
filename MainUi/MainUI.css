@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(to right, rgb(18, 18, 18), rgb(0, 0, 0));
+  font-family: "Rowdies", cursive;
+}
+
+/* header */
+
+header {
+  background-color: rgba(0, 0, 0, 0.109);
+  color: rgb(255, 255, 255);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-shadow: 3px 2px 5px rgb(255, 0, 0);
+}
+
+/* header logo */
+
+header .Logo {
+  display: flex;
+  font-size: 10px;
+}
+header .Logo b {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 4px rgb(255, 5, 5);
+}
+header i {
+  padding-left: 9px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+/* header Search */
+
+header input {
+  color: white;
+  padding: 5px 20px;
+  width: 800px;
+  height: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.582);
+  border-radius: 20px;
+  background-color: transparent;
+  box-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+header .Search i {
+  font-size: 20px;
+}
+header .Search i:hover {
+  text-shadow: none;
+  opacity: 0.7;
+}
+/* header nav */
+
+header .navigation i {
+  font-size: 25px;
+  text-shadow: 2px 2px 10px black;
+}
+header .navigation i:hover {
+  text-shadow: none;
+  opacity: 0.7;
+  transition: 0.2s ease-in-out;
+}
+/* options */
+
+.Options {
+  background-color: rgba(235, 235, 235, 0.109);
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-size: 8px;
+  justify-content: space-around;
+  padding: 20px 290px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.96);
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.Options h1:hover {
+  text-shadow: none;
+  transition: 0.1s ease-in-out;
+  text-decoration: underline;
+}
+
+/* main */
+
+main .mainSliderContainer {
+  display: flex;
+  margin: 40px;
+  overflow: hidden;
+  padding: 20px;
+}
+main .mainSliderContainer img {
+  height: 320px;
+  width: 750px;
+  margin: 0 20px 0 17%;
+  transform: translateX(-100%);
+}
+
+.btnsOfMainSlider i {
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50%;
+}
+.btnsOfMainSlider i:hover {
+  opacity: 0.4;
+  transition: 0.2s ease-in-out;
+}
+.TopSlider {
+  border: 1px solid rgba(255, 255, 255, 0.459);
+  padding: 0px 20px;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.214);
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* smaall container Main */
+
+.containerOfSmallImgSlider {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  /* border: 1px solid white; */
+}
+.New-Realese,
+.Top-Charts,
+.Indian-Music,
+.Top-Indian-Artists,
+.Top-Podcasts-On-DIF-Music,
+.International-Top-Hits,
+.Hindi-Top-20,
+.Trending-English,
+.Latest-Hindi,
+.Latest-English,
+.Trending-Hindi,
+.Top-English-Playlist,
+.Top-Hindi-Playlist,
+.Discover-New-Music {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  margin: 50px;
+  height: 200px;
+  border: 1px solid rgba(255, 255, 255, 0.459);
+}
+.New-Realese img,
+.Top-Charts img,
+.Indian-Music img,
+.Top-Indian-Artists img,
+.Top-Podcasts-On-DIF-Music img,
+.International-Top-Hits img,
+.Hindi-Top-20 img,
+.Trending-English img,
+.Latest-Hindi img,
+.Latest-English img,
+.Trending-Hindi img,
+.Top-English-Playlist img,
+.Top-Hindi-Playlist img,
+.Discover-New-Music img {
+  height: 120px;
+  width: 235px;
+  margin: 30px;
+  border-radius: 10px;
+  /* transform: translateX(-125%); */
+}
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  text-shadow: 4px 4px 5px rgb(37, 41, 41);
+}
+footer .about {
+  background-color: transparent;
+  border: 1px solid rgba(189, 189, 189, 0.726);
+  margin: 50px;
+  border-radius: 10px;
+  padding: 40px;
+  color: rgb(228, 227, 227);
+}
+footer .about h1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* foter info */
+
+.information {
+  margin: 50px;
+  color: white;
+  font-size: 15px;
+}
+.information a {
+  color: white;
+  opacity: 0.3;
+  text-decoration: none;
+}
+.information a:hover {
+  color: white;
+  text-decoration: underline;
+  opacity: 1;
+}
+.information h1 {
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+.information .info1 {
+  display: flex;
+}
+.information .info1 div {
+  margin: 0 30px 0 20px;
+}
+.info2 {
+  display: flex;
+  margin: 50px 20px 0 20px;
+}
+.info3 {
+  display: flex;
+  padding: 50px 400px 0 20px;
+}
+.InnerOfInfo {
+  border-top: 2px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  border-bottom: 2px solid white;
+  margin: 50px 0 0 0px;
+  padding: 30px 0 30px 0;
+}
+.InnerOfInfo i {
+  font-size: 30px;
+  margin-left: 30px;
+}
+.info5 {
+  display: flex;
+  color: rgb(255, 254, 254);
+  justify-content: space-evenly;
+  margin: 0 10px 0 10px;
+}
+.info5 .informationAboutApp {
+  /* font-size: 1px; */
+  margin: 20px 200px 0 0;
+}
+.info5 .guidline {
+  margin: 20px 10px 0 10px;
+}

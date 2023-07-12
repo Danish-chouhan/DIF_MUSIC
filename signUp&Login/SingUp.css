@@ -1,0 +1,71 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    text-align: left;
+  }
+  .names {
+    display: flex;
+  }
+  .names input {
+    width: 75%;
+    height: 40px;
+  }
+  .fname {
+    margin-right: 40px;
+  }
+  #DOB {
+    text-align: center;
+  }
+
+  /* media equary */
+
+  @media only screen and (max-width: 600px) {
+    .names {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+    }
+    .names input {
+      width: 100%;
+    }
+    .names ::placeholder {
+      font-size: 8px;
+    }
+    .fname {
+      margin-right: 0px;
+    }
+    header {
+      height: 70px;
+    }
+    header h1 {
+      font-size: 20px;
+    }
+    header b {
+      font-size: 40px;
+      color: rgb(0, 0, 0);
+    }
+    header i {
+      padding-left: 10px;
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+    }
+
+    /* main */
+
+    .main-container {
+      background-color: transparent;
+      width: 100%;
+      margin: 13% 0 10% 0;
+    }
+
+    button img {
+      height: 19px;
+      padding-right: 10px;
+    }
+    form ::placeholder {
+      text-align: center;
+      font-size: 10px;
+    }
+  }
